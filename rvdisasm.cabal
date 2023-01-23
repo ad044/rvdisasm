@@ -1,0 +1,13 @@
+cabal-version:      2.4
+name:               rvdisasm
+version:            0.4.4
+
+author:             ad044
+maintainer:         antidepressant044@protonmail.com
+
+executable rvdisasm
+    main-is:          Main.hs
+
+    build-depends:    base ^>=4.16.4.0, integer-logarithms
+    hs-source-dirs:   app
+    default-language: Haskell2010
